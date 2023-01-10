@@ -89,7 +89,7 @@ class FileSelecting{
 						    prepareProcess(globalPath,locationValue);
 						    System.out.println(globalPath.getClass().getName());
 
-							frame.setVisible(false); //you can't see me! //This and next lines below came from https://stackoverflow.com/questions/1234912/how-to-programmatically-close-a-jframe
+							frame.setVisible(false); //you can't see me! 
 							frame.dispose();
 
 						}else{
